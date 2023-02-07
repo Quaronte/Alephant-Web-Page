@@ -4,29 +4,39 @@
 
 
 html { 
-  background: url("Images/Background01.png") no-repeat center center fixed; 
+  background: url("Images/Background03.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+body{
+  font-family: 'Lora', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color:#323232;
+  text-shadow: 0px 4px #A1A1A1;
+}
+
+/* define image */
+.AlephantLogo{
+  max-width: 100%;
+  max-height: 100%;
+  padding: 3%;
+  box-shadow: #121212;
+  /* position: fixed;
+  top: 20%;
+  left: 0%; */
+}
 
 .title {
   margin: 100px;
-  font-family: 'Lora', sans-serif;
   font-size: 100px;
-  font-weight: 700;
-  text-align: center;
 }
 
 .subsentence {
-  font-family: 'Lora', sans-serif;
   font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-  color:aliceblue;
-  text-shadow: 0px 4px #404040;
   padding-bottom: 50px;
   padding-top: -20px;
 }
@@ -44,6 +54,8 @@ html {
   padding-top: 28.125%;
   width: 50%;
   margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .video iframe, .video object, .video embed {
@@ -54,21 +66,19 @@ html {
   height: 100%;
 }
 
-.button{
+.buttonleft{
   max-width: 10%;
-  color: #ffffff;
   transition: opacity 0.2s, width 0.2s, margin 0.2s;
   opacity: 100%;
   transform: rotate(0.1);
   float:left;
 }
-.button:hover{
+.buttonleft:hover{
   opacity: 80%;
 }
 
 .buttonright{
   max-width: 10%;
-  color: #ffffff;
   transition: opacity 0.2s, width 0.2s, margin 0.2s;
   opacity: 100%;
   transform: rotate(0.1);
@@ -79,14 +89,7 @@ html {
   opacity: 80%;
 }
 
-/* define image */
-.AlephantLogo{
-  max-width: 100%;
-  max-height: 10%;
-  /* position: fixed;
-  top: 20%;
-  left: 0%; */
-}
+
 
 .center {
   display: block;
@@ -96,40 +99,36 @@ html {
 }
 
 .releaseDate {
-  font-family: 'Lora', sans-serif;
   font-size: 25px;
-  font-weight: 700;
-  text-align: center;
-  color:aliceblue;
-  text-shadow: 0px 4px #404040;
   padding-bottom: 2%;
   padding-top: 4%;
 }
 
 .credits {
-  font-family: 'Lora', sans-serif;
   font-size: 15px;
-  font-weight: 700;
-  text-align: center;
-  color:aliceblue;
-  text-shadow: 0px 4px #404040;
   padding-bottom: 4%;
 }
 
-.presskitButton {
-  font-family: 'Lora', sans-serif;
-  font-size: 25px;
-  font-weight: 700;
-  width: 20%;
-  text-align: center;
-  color:#121212;
-  text-shadow: 0px 2px #808080;
-  margin: auto;
-  border-radius: 10px;
-  background: #E4C464;
+.button {
+  display: inline-block;
+  padding: 0 30px;
+  color: antiquewhite;
+  font-size: 20px;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
   text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 20px;
+  background-color: #3449D6;
+  border-color: #111111;
+  text-shadow: 0px 0px;
 }
 
-.presskitButton:hover {
-  background:#aaaaaa;
+.button:hover{
+  opacity: 80%;
+  border-color: #111111;
 }
