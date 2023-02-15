@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
 /* ---------------------------------------------------------- *\
  * Globals.
 \* ---------------------------------------------------------- */
@@ -211,7 +211,8 @@ a:hover {
 .nav__title {
   padding: 0 15px;
 
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: 'Lora', sans-serif;
+  font-size: 35px;
   line-height: 1;
 }
 
